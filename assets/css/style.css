@@ -58,6 +58,18 @@ p {
     background-size: cover;
     background-position: center;
 }
+.heroContent {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.heroContent img {
+    max-height: 200px;
+}
 
 .float-left {
     float: left;
@@ -102,23 +114,6 @@ p {
     max-width: 150px;
 }
 
-.heroContent {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.heroContent img {
-    max-height: 200px;
-}
-
- h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 footer {
     padding: 30px;
@@ -129,4 +124,9 @@ footer {
 
 footer h2 {
     font-size: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
