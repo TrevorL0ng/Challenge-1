@@ -24,6 +24,10 @@ span {
     color: #d9dcd6;
 }
 
+p {
+    font-size: 16px;
+}
+
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,10 +50,6 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +58,13 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .heroContent {
     margin-bottom: 20px;
     padding: 50px;
@@ -79,12 +86,6 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 .benefits {
@@ -113,7 +114,6 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
 
 footer {
     padding: 30px;
